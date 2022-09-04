@@ -1,5 +1,6 @@
+import { useSearchUsersQuery } from "../store/github/github.api";
+
 export function HomePage() {
-  return (
-    <div>HomePage</div>
-  );
+  const { isLoading, isError, data } = useSearchUsersQuery('Tim');
+  return <div>HomePage</div>;
 }
