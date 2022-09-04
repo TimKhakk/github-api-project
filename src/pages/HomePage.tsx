@@ -1,8 +1,4 @@
-interface Props {
-  some?: any;
-}
-
-export function HomePage(props: Props) {
+export function HomePage() {
   return (
     <div>HomePage</div>
   );

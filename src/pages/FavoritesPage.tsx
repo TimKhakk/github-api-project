@@ -1,8 +1,4 @@
-interface Props {
-  some?: any;
-}
-
-export function FavoritesPage(props: Props) {
+export function FavoritesPage() {
   return (
     <div>FavoritesPage</div>
   );
